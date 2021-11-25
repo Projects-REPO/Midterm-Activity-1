@@ -126,32 +126,4 @@ to cheer for your favourite athletes in style.
 
 
 
-<a href="../src/pages/shop.html " >
-
-								<img
-								src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ecfaa17bc83a4366a2acad580159ad81_9366/Superstar_Shoes_White_GX3656_01_standard.jpg"
-								
-						/>
-							</a>
-=======
-								src="https://sneakerbardetroit.com/wp-content/uploads/2021/07/Nike-SB-Force-58-Dutch-Blue-CZ2959-400-Release-Date-4-1068x660.jpg"
-								alt="Nike-SB-Force-58-Dutch-Blue-CZ2959-400"
-							/>
-						</a>
-
-
-
-<a href="../src/pages/shop.html " >
-
-							<img
-							src="https://assets.adidas.com/images/w_600,f_auto,q_auto/76b0d4fcb1f844478d31ab96016ae99b_9366/Nizza_x_Disney_Sport_Goofy_Shoes_Black_FW9590_01_standard.jpg" 
-							alt="NizzaAdidas"
-						/>
-							</a>
-=======
-								src="https://www.famousfootwear.com/blob/product-images/20000/32/58/6/32586_pair_large.jpg"
-								alt="32586_pair_large"
-							/>
-						</a>
-
 
