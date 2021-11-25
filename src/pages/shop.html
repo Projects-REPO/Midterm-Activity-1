@@ -1,77 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Shoes</title>
-	</head>
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@505&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Outfit:wght@505&display=swap');
 
-		body {
-			margin: 0%;
-			background-color: #f0ecec;
-			font-family: 'Roboto', sans-serif;
-		}
-		.container {
-			width: 100%;
-		}
-		.px {
-			padding-left: 10%;
-			padding-right: 10%;
-		}
-		.bods {
-			display: inline-block;
-			width: 80%;
-		}
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: #282424;
-		}
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Shoes</title>
+</head>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@505&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Outfit:wght@505&display=swap');
 
-		li {
-			float: left;
-		}
+	body {
+		margin: 0%;
+		background-color: #f0ecec;
+		font-family: 'Roboto', sans-serif;
+	}
 
-		li a {
-			display: inline-block;
-			color: #f0ecec;
-			text-align: center;
-			font-size: 30px;
-			padding: 24px 36px;
-			text-decoration: none;
-			font-family: 'Outfit', sans-serif;
-		}
-		img {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			width: 100%;
-		}
+	.container {
+		width: 100%;
+	}
 
-		.right {
-			float: right;
-		}
-		.center {
-  		display: block;
-		  margin-left: auto;
-		  margin-right: auto;
-		  width: 50%;
-		}
-		.footer {
-  		background: #303036;
- 		 color: #d3d3d3;
-		  height: px;
- 		 position: relative;
-		  
-		}
-	
-		.footer .footer-bottom {
+	.container-half {
+		width: 60%;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.px {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.bods {
+		display: inline-block;
+		width: 80%;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #282424;
+	}
+
+	li {
+		float: left;
+	}
+
+	li a {
+		display: inline-block;
+		color: #f0ecec;
+		text-align: center;
+		font-size: 30px;
+		padding: 24px 36px;
+		text-decoration: none;
+		font-family: 'Outfit', sans-serif;
+	}
+
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.right {
+		float: right;
+	}
+
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+
+	.footer {
+		background: #303036;
+		color: #d3d3d3;
+		height: px;
+		position: relative;
+
+	}
+
+	.footer .footer-bottom {
 		background: #343a40;
 		color: #686868;
 		height: 120px;
@@ -81,89 +97,96 @@
 		bottom: 0px;
 		left: 0px;
 		padding-top: 0px;
-		  
-		}
-		.footeri {
-			padding: 8px;
-			height: 68px;
-			width: 88px;
-			vertical-align: middle;
-		}
-		p {
-			text-align: center;
-		}
-		.p1{
-			font-family: 'Abril Fatface', cursive;
-			font-size: 150px;
-			color: #282424;
-		}
-		h1{
-			color: #282424; text-align: center; 							
-		}
-		/* Grid */
-		.grid-container {
-  			display: grid;
-  			grid-row-gap: 10px;
-			grid-column-gap: 10px;
-			grid-template-columns: auto auto auto auto;
-			background-color: #2196F3;
-			padding: 10px;
-		}
 
-		.grid-item {
-		background-color: rgba(255, 255, 255, 0.8);
-		border: 1px solid rgba(0, 0, 0, 0.8);
+	}
+
+	.footeri {
+		padding: 8px;
+		height: 68px;
+		width: 88px;
+		vertical-align: middle;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	.p1 {
+		font-family: 'Abril Fatface', cursive;
+		font-size: 150px;
+		color: #282424;
+	}
+
+	h1 {
+		color: #282424;
+		text-align: center;
+	}
+
+	/* Grid */
+	.grid-container {
+		display: grid;
+		grid-row-gap: 10px;
+		grid-column-gap: 10px;
+		grid-template-columns: auto auto auto;
+
+		padding: 10px;
+	}
+
+	.grid-item {
 		padding: 20px;
 		font-size: 30px;
 		text-align: center;
-		}
+		width: 256px;
+		height: 256px;
+	}
+</style>
 
-	</style>
-	<body>
-		<div class="container">
-			<ul>
-				<li><a>Paa ni Tole</a></li>
-				<li><a href="../../public/index.html">Home</a></li>
-				<li><a href="../../src/pages/shop.html">Sale</a></li>
-				<li class="right">
-					<a href="../../src/pages/registration.html">Get Started</a>
-				</li>
-				<li class="right"><a href="../../src/pages/login.html">Login</a></li>
-			</ul>
-		</div>
-		<p class="p1"> SALE</p>
+<body>
+	<div class="container">
+		<ul>
+			<li><a>Paa ni Tole</a></li>
+			<li><a href="../../public/index.html">Home</a></li>
+			<li><a href="../../src/pages/shop.html">Sale</a></li>
+			<li class="right">
+				<a href="../../src/pages/registration.html">Get Started</a>
+			</li>
+			<li class="right"><a href="../../src/pages/login.html">Login</a></li>
+		</ul>
+	</div>
+	<p class="p1"> SALE</p>
 
 
-
+	<div class="container-half">
 		<div class="grid-container">
-			<div class="grid-item">1</div>
+			<div class="grid-item"><img
+					src="https://sneakernews.com/wp-content/uploads/2021/08/Nike-Air-Force-1-EMB-DB0264-100-7.jpg?w=1140"
+					alt="Nike-Air-Force-1-EMB-DB0264-100-7" /></div>
 			<div class="grid-item">2</div>
-			<div class="grid-item">3</div>  
+			<div class="grid-item">3</div>
 			<div class="grid-item">4</div>
 			<div class="grid-item">5</div>
-			<div class="grid-item">6</div>  
+			<div class="grid-item">6</div>
 			<div class="grid-item">7</div>
 			<div class="grid-item">8</div>
-			<div class="grid-item">9</div>  
-			<div class="grid-item">10</div>  
-		  </div>
+			<div class="grid-item">9</div>
+			<div class="grid-item">10</div>
+		</div>
+	</div>
 
 
 
 
 
-	</body>
-	<footer>
+
+</body>
+<footer>
 	<div class="footer">
 		<div class="footer-section about">
 			<p>
-				<img
-					class="footeri"
-					src="../assets/icons-8/PAA ni TOLE Logo.gif"
-					alt="footer.logo"
-				/>
+				<img class="footeri" src="../assets/icons-8/PAA ni TOLE Logo.gif" alt="footer.logo" />
 				&copy; 2021 paanitole.com | All Rights Reserved
 			</p>
 		</div>
-	</footer>
+</footer>
+
 </html>
