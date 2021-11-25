@@ -79,3 +79,79 @@ NOW Php 3,769.00
 - Rubber outsole
 - Round toe
 - Lace up fastening
+
+ADIDAS
+superstar shoes
+FROM Php 4,800.00
+
+- Lace closure
+- Synthetic upper
+- Moulded sockliner
+- Rubber outsole
+- SYNTHETICS/RUBBER
+- adidas Originals
+- Best for lifestyle
+We designed the adidas Superstar shoe back in the '70s, 
+but it was the creators of the world who built its legacy. 
+The athletes. The artists. The fashionistas. 
+Everyone who wears them adds their unique voice to the 
+collective history. This pair stays true to all the iconic 
+elements, from the rubber shell toe to the serrated 3-Stripes, 
+but adds pops of paisley to give it a fresh edge. Lace in, 
+and leave your own mark.
+
+
+ADIDAS
+nizza x disney sport goofy shoes
+Php 3,900.00
+FROM Php 2,419.00
+
+- Lace closure
+- Leather upper
+- Skate-inspired shoes with a Disney print
+- Rubber outsole
+- ©Disney
+- SYNTHETICS
+- adidas Originals
+- Best for lifestyle
+Disney and adidas team up on these fun Nizza shoes. 
+Playful graphics featuring Disney's Goofy celebrate 
+the world's biggest sports competition. The 
+print sits atop the legendary shoe that set the 
+gold standard for vulcanised trainers. Get ready 
+to cheer for your favourite athletes in style.
+
+
+
+
+
+
+<a href="../src/pages/shop.html " >
+
+								<img
+								src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ecfaa17bc83a4366a2acad580159ad81_9366/Superstar_Shoes_White_GX3656_01_standard.jpg"
+								
+						/>
+							</a>
+=======
+								src="https://sneakerbardetroit.com/wp-content/uploads/2021/07/Nike-SB-Force-58-Dutch-Blue-CZ2959-400-Release-Date-4-1068x660.jpg"
+								alt="Nike-SB-Force-58-Dutch-Blue-CZ2959-400"
+							/>
+						</a>
+
+
+
+<a href="../src/pages/shop.html " >
+
+							<img
+							src="https://assets.adidas.com/images/w_600,f_auto,q_auto/76b0d4fcb1f844478d31ab96016ae99b_9366/Nizza_x_Disney_Sport_Goofy_Shoes_Black_FW9590_01_standard.jpg" 
+							alt="NizzaAdidas"
+						/>
+							</a>
+=======
+								src="https://www.famousfootwear.com/blob/product-images/20000/32/58/6/32586_pair_large.jpg"
+								alt="32586_pair_large"
+							/>
+						</a>
+
+
