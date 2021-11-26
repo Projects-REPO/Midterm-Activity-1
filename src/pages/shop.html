@@ -149,6 +149,19 @@
 		text-align: left;
 	}
 
+	.sizes {
+		border-radius: 4px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: medium;
+		margin-bottom: 4%;
+		position: relative;
+		width: 100%;
+	}
+	.sizes select {
+  		display: none; /*hide original SELECT element:*/
+	}
+
+
 	h1 {
 		color: #282424;
 		text-align: center;
@@ -165,10 +178,9 @@
 	.grid-item {
 		background-color: white;
 		border-radius: 8px;
-		font-size: 30px;
 		height: auto;
 		margin-block-end: auto;
-		padding: 8%;
+		padding: 4%;
 		text-align: center;
 		width: auto;
 	}
@@ -189,6 +201,7 @@
 		font-family: 'Abril Fatface', cursive;
 		font-family: 'Outfit', sans-serif;
 		font-family: 'Roboto Slab', serif;
+		height: 195px;
 		padding: 8px;
 	}
 </style>
@@ -220,14 +233,16 @@
 					<p class="brand">ADIDAS</p>
 					<p class="model">Nizza x disney sport goofy</p>
 					<p class="now">₱2,419.00</p>
-					<select name="dropdown" style="font-size: 25px;">
+					
+				</div>
+				<div class="container">
+					<select name="dropdown" class="sizes">
+						<option value="0">Select size:</option>
 						<option value="8">8 US</option>
 						<option value="9">9 US</option>
 						<option value="10">10 US</option>
 						<option value="11">11 US</option>
 					</select>	
-				</div>
-				<div class="container">
 					<a href="../src/pages/shop.html" class="button">BUY now!</a>
 				</div>
 				
@@ -237,14 +252,16 @@
 					<p class="brand">ADIDAS</p>
 					<p class="model">Superstar</p>
 					<p class="now">₱4,800.00</p>
-					<select name="dropdown" style="font-size: 25px;">
-						<option value="8">8 US</option>
-						<option value="9">9 US</option>
-						<option value="10">10 US</option>
-						<option value="11">11 US</option>
-					</select>
+					
 					
 				</div>
+				<select name="dropdown" class="sizes">
+					<option value="0">Select size:</option>
+					<option value="8">8 US</option>
+					<option value="9">9 US</option>
+					<option value="10">10 US</option>
+					<option value="11">11 US</option>
+				</select>
 				<a href="../src/pages/shop.html" class="button">BUY now!</a>
 			</div>
 			
@@ -254,14 +271,16 @@
 						<p class="brand">NIKE</p>
 						<p class="model">Air Force 1 '07 Lv8 EMB</p>
 						<p class="now">₱6,295.00</p>
-						<select name="dropdown" style="font-size: 25px;">
-							<option value="8">8 US</option>
-							<option value="9">9 US</option>
-							<option value="10">10 US</option>
-							<option value="11">11 US</option>
-						</select>
+						
 						
 					</div>
+					<select name="dropdown" class="sizes">
+						<option value="0">Select size:</option>
+						<option value="8">8 US</option>
+						<option value="9">9 US</option>
+						<option value="10">10 US</option>
+						<option value="11">11 US</option>
+					</select>
 					<a href="../src/pages/shop.html" class="button">BUY now!</a>
 				</div>
 			<div class="grid-item"><img src="../assets/images/Chuck-70.png" alt="Chuck-70.png" />
@@ -269,14 +288,16 @@
 					<p class="brand">CONVERSE</p>
 					<p class="model">Chuck 70 Ox</p>
 					<p class="now">₱3,769.00</p>
-					<select name="dropdown" style="font-size: 25px;">
-						<option value="8">8 US</option>
-						<option value="9">9 US</option>
-						<option value="10">10 US</option>
-						<option value="11">11 US</option>
-					</select>
+					
 					
 				</div>
+				<select name="dropdown" class="sizes">
+					<option value="0">Select size:</option>
+					<option value="8">8 US</option>
+					<option value="9">9 US</option>
+					<option value="10">10 US</option>
+					<option value="11">11 US</option>
+				</select>
 				<a href="../src/pages/shop.html" class="button">BUY now!</a>
 			</div>
 			<div class="grid-item"><img src="../assets/images/Chuck-Taylor-Allstar.png"
@@ -285,14 +306,16 @@
 						<p class="brand">CONVERSE</p>
 						<p class="model">Chuck Taylor All Star Hoop Hunter Ox</p>
 						<p class="now">₱2,999.00</p>
-						<select name="dropdown" style="font-size: 25px;">
-							<option value="8">8 US</option>
-							<option value="9">9 US</option>
-							<option value="10">10 US</option>
-							<option value="11">11 US</option>
-						</select>
+						
 						
 					</div>
+					<select name="dropdown" class="sizes">
+						<option value="0">Select size:</option>
+						<option value="8">8 US</option>
+						<option value="9">9 US</option>
+						<option value="10">10 US</option>
+						<option value="11">11 US</option>
+					</select>
 					<a href="../src/pages/shop.html" class="button">BUY now!</a>
 				</div>
 			<div class="grid-item"><img src="../assets/images/Chuck-Taylor-Hoopers.png"
@@ -302,14 +325,16 @@
 						<p class="model">Chuck Taylor All Star Hoop Hunter Ox</model>
 						<p class="price">FROM ₱3,900.00</p>
 						<p class="now">NOW ₱3,249.00</p>
-						<select name="dropdown" style="font-size: 25px;">
-							<option value="8">8 US</option>
-							<option value="9">9 US</option>
-							<option value="10">10 US</option>
-							<option value="11">11 US</option>
-						</select>
 						
 					</div>
+					<select name="dropdown" class="sizes">
+						<option value="0">Select size:</option>
+						<option value="8">8 US</option>
+						<option value="9">9 US</option>
+						<option value="10">10 US</option>
+						<option value="11">11 US</option>
+					</select>
+					
 					<a href="../src/pages/shop.html" class="button">BUY now!</a>
 				</div>
 			<div class="grid-item"><img src="../assets/images/court-vision-low-shoe-tpxtfs.png"
@@ -319,14 +344,16 @@
 						<p class="model">Court Vision Low Next Nature</p>
 						<p class="model">FROM ₱3,895.00</p>
 						<p class="now">NOW ₱3,495.00</p>
-						<select name="dropdown" style="font-size: 25px;">
-							<option value="8">8 US</option>
-							<option value="9">9 US</option>
-							<option value="10">10 US</option>
-							<option value="11">11 US</option>
-						</select>
+						
 						
 					</div>
+					<select name="dropdown" class="sizes">
+						<option value="0">Select size:</option>
+						<option value="8">8 US</option>
+						<option value="9">9 US</option>
+						<option value="10">10 US</option>
+						<option value="11">11 US</option>
+					</select>
 					<a href="../src/pages/shop.html" class="button">BUY now!</a>
 				</div>
 			<div class="grid-item"><img src="../assets/images/CourtVision.png" alt="CourtVision.png" />
@@ -334,14 +361,16 @@
 					<p class="brand">NIKE</p>
 					<p class="model">Court Vision Mid</p>
 					<p class="now">₱3,895.00</p>
-					<select name="dropdown" style="font-size: 25px;">
-						<option value="8">8 US</option>
-						<option value="9">9 US</option>
-						<option value="10">10 US</option>
-						<option value="11">11 US</option>
-					</select>
+					
 					
 				</div>
+				<select name="dropdown" class="sizes">
+					<option value="0">Select size:</option>
+					<option value="8">8 US</option>
+					<option value="9">9 US</option>
+					<option value="10">10 US</option>
+					<option value="11">11 US</option>
+				</select>
 				<a href="../src/pages/shop.html" class="button">BUY now!</a>
 			</div>
 			<div class="grid-item"><img src="../assets/images/kd14.png" alt="kd14.png" />
@@ -350,14 +379,16 @@
 					<p class="model">Kd14 Ep Nike Basketball</p>
 					<p class="model">FROM ₱7,795.00</p>
 					<p class="now">NOW ₱7,495.00</p>
-					<select name="dropdown" style="font-size: 25px;">
-						<option value="8">8 US</option>
-						<option value="9">9 US</option>
-						<option value="10">10 US</option>
-						<option value="11">11 US</option>
-					</select>
+					
 					
 				</div>
+				<select name="dropdown" class="sizes">
+					<option value="0">Select size:</option>
+					<option value="8">8 US</option>
+					<option value="9">9 US</option>
+					<option value="10">10 US</option>
+					<option value="11">11 US</option>
+				</select>
 				<a href="../src/pages/shop.html" class="button">BUY now!</a>
 			</div>
 			<div class="grid-item"><img src="../assets/images/kyrie.png" alt="kyrie.png" />
@@ -366,14 +397,16 @@
 					<p class="model">Kyrie 7 Ep</p>
 					<p class="model">FROM ₱6,895.00</p>
 					<p class="now">NOW ₱6,295.00</p>
-					<select name="dropdown" style="font-size: 25px;">
-						<option value="8">8 US</option>
-						<option value="9">9 US</option>
-						<option value="10">10 US</option>
-						<option value="11">11 US</option>
-					</select>
+					
 					
 				</div>
+				<select name="dropdown" class="sizes">
+					<option value="0">Select size:</option>
+					<option value="8">8 US</option>
+					<option value="9">9 US</option>
+					<option value="10">10 US</option>
+					<option value="11">11 US</option>
+				</select>
 				<a href="../src/pages/shop.html" class="button">BUY now!</a>
 			</div>
 			<div class="grid-item"><img src="../assets/images/Puma-Suede.png" alt="Puma-Suede.png" />
@@ -382,29 +415,31 @@
 					<p class="model">Suede Triplex Botanics Trainers</p>
 					<p class="model">FROM ₱6,350.00</p>
 					<p class="now">NOW ₱5,950.00</p>
-					<select name="dropdown" style="font-size: 25px;">
-						<option value="8">8 US</option>
-						<option value="9">9 US</option>
-						<option value="10">10 US</option>
-						<option value="11">11 US</option>
-					</select>
 					
 				</div>
+				<select name="dropdown" class="sizes">
+					<option value="0">Select size:</option>
+					<option value="8">8 US</option>
+					<option value="9">9 US</option>
+					<option value="10">10 US</option>
+					<option value="11">11 US</option>
+				</select>
+				
 				<a href="../src/pages/shop.html" class="button">BUY now!</a>
 			</div>
 			<div class="grid-item"><img src="../assets/images/sb-force.png" alt="sb-force.png" />
 				<div class="pad">
 					<p class="brand">NIKE</p>
 					<p class="model">Sb Force 58 Action Shoes</p>
-					<p class="now">₱3,895.00</p>
-					<select name="dropdown" style="font-size: 25px;">
-						<option value="8">8 US</option>
-						<option value="9">9 US</option>
-						<option value="10">10 US</option>
-						<option value="11">11 US</option>
-					</select>
-					
+					<p class="now">₱3,895.00</p>								
 				</div>
+				<select name="dropdown" class="sizes">
+					<option value="0">Select size:</option>
+					<option value="8">8 US</option>
+					<option value="9">9 US</option>
+					<option value="10">10 US</option>
+					<option value="11">11 US</option>
+				</select>
 				<a href="../src/pages/shop.html" class="button">BUY now!</a>
 			</div>
 		</div>
