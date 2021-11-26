@@ -154,7 +154,6 @@
 		text-align: center;
 	}
 
-
 	/* Grid */
 	.grid-container {
 		display: grid;
@@ -165,6 +164,7 @@
 
 	.grid-item {
 		background-color: white;
+		border-radius: 8px;
 		font-size: 30px;
 		height: auto;
 		margin-block-end: auto;
@@ -174,8 +174,9 @@
 	}
 	.button {
 		background-color: #328f8a;
-		border-radius: 5px;
+		border-radius: 8px;
 		color: #fff;
+		display: block;
 		font-family: 'Abril Fatface', cursive;
 		font-family: 'Outfit', sans-serif;
 		font-size: 1rem;
@@ -226,7 +227,10 @@
 						<option value="11">11 US</option>
 					</select>	
 				</div>
-				<a href="../src/pages/shop.html" class="button">BUY now!</a>
+				<div class="container">
+					<a href="../src/pages/shop.html" class="button">BUY now!</a>
+				</div>
+				
 			</div>
 			<div class="grid-item"><img src="../assets/images/adidassuperstar.png" alt="adidassuperstar.png" />
 				<div class="pad">
